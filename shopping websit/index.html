@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>My shopping website</title>
+  <style>
+    html{
+    scroll-behavior: smooth;
+    }
+   
+    body{
+        font-family: Calibri,  sans-serif;
+        margin:0;
+        padding:0;
+        box-sizing:border-box
+    }
+    header{
+        background-color: #061c40;
+        color:rgb(228, 173, 212);
+        text-align:center;
+        padding: 0.75em;
+        font-family: cursive;
+    }
+    
+    footer{
+        background-color: #061c40;
+        color:rgb(237, 219, 231);
+        text-align:center;
+        padding: 0.75em;
+    }
+    /*#logo{
+    margin: 10px 34px;
+    } 
+    #logo img{
+        height: 56px;
+        margin: 34px 45px;
+    }*/
+    
+    nav a{
+        float:left;
+        display: block;
+        color:rgb(3, 63, 43);
+        text-align:justify;
+        padding:14px 16px;
+        text-decoration:none;
+    }
+    nav{
+        background-color: rgb(3, 111, 111);
+        overflow: hidden;
+        font-family: fantasy;
+        /*background: url('../online-shopping-5700377_640.png') no-repeat center center/cover;
+        height: 400 px;
+        width: 100%;
+        
+        width: 100%;
+        height: 100%;
+        top:0px;
+        left:0px;
+        z-index: -1;
+        opacity:0.89;*/
+        
+        
+    }
+
+    
+    nav a:hover{
+        background-color: rgb(143, 53, 5);
+        color:rgb(81, 5, 102)
+    }
+    #services{
+       margin: 34px;
+       display: flex;
+    }
+    #services .box{ 
+       border: 2px solid rgb(19, 8, 47);
+       padding: 34px;
+       margin: 2px 55px;
+       border-radius: 28px;
+       background: #f2f2f2;
+       margin-bottom: 20px;
+    }
+
+   #services .box img{ 
+      height: 160px;
+      margin: auto;
+      display: block;
+   }
+
+   #services .box p{
+      font-family: 'Bree Serif', serif;
+    }
+   .h-primary{
+      font-family: 'Bree Serif', serif;
+      font-size: 3.1rem;
+      padding: 8px;
+      text-align: center;
+      color: rgb(7, 105, 72);
+    } 
+    .btn:hover{
+        background-color: rgb(79, 4, 108);
+        color:rgb(2, 122, 131)
+
+    }
+    
+    
+    /*img{
+        max-width:100%;
+        height:auto;
+        display: block;
+        margin:0 auto
+    }*/
+  </style>
+</head>
+<body>
+    <header>
+        <h1>LET'S Shopping </h1>
+    </header>
+    <nav >
+        <a href="#home">Home</a>
+        <a href="#Products">Products</a>
+        <a href="#Cart">Cart</a>
+        <a href="#contact">Contact</a>
+        
+
+    </nav>
+    <!--<main>
+        <img src="online-shop-6401739_640.png" alt="Shopping image">
+    </main>-->
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="womens.jpg" alt="">
+                <h2 class="h-secondary center">Women section</h2>
+                <p class="center">Online Shopping for Women. Shop Online from a wide range of womens clothing, shoes, Ladies bags & more in India ✯Free Shipping ✯COD ✯Easy to Delivery</p>
+                <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+                <img src="baby.jpg" alt="">
+                <h2 class="h-secondary center">Kids section</h2>
+                <p class="center">Online Shopping for Kids . Shop Online from a wide range of womens clothing, shoes, Ladies bags & more in India ✯Free Shipping ✯COD ✯Easy to Delivery</p>
+                <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+                <img src="mens.jpg" alt="">
+                <h2 class="h-secondary center">Mens section</h2>
+                <p class="center">Online Shopping for mens . Shop Online from a wide range of womens clothing, shoes, Ladies bags & more in India ✯Free Shipping ✯COD ✯Easy to Delivery</p>
+                <button class="btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 .All right reserved</p>
+    </footer>
+</body>
