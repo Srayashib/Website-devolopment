@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Hotel booking website</title>
+  <style>
+    body {
+        margin: 0;
+        font-family: fantasy;
+
+    }
+    
+    nav{
+        background-color: #fbfafa;
+        color: rgb(53, 0, 0);
+        padding:10px;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav li{
+        display: inline;
+        margin-right: 20px;
+    }
+    nav a{
+        color:rgb(36, 138, 117);
+        text-decoration: none;
+        font-family: initial;
+    }
+    nav a:hover{
+        background-color: rgb(126, 32, 112);
+        color:rgb(2, 0, 2)
+    }
+    .pay-now-btn {
+
+cursor: pointer;
+
+color: #fff;
+
+height: 50px;
+
+width: 290px;
+
+border: none;
+
+margin: 5px 30px;
+
+background-color: rgb(71, 177, 61);
+
+position: relative;
+}
+
+.card-details {
+
+background: rgb(8, 49, 14);
+
+color: rgb(225, 223, 233);
+
+margin: 10px 30px;
+
+padding: 10px;
+
+/* border-bottom-left-radius: 80px; */
+}
+
+.card-details p {
+
+font-size: 15px;
+}
+
+.card-details label {
+
+font-size: 15px;
+
+line-height: 35px;}
+    header{
+        text-align: center;
+        font-family: cursive;
+        padding: 10px;
+        background-color: #050505;
+        color: #f9f9f9;
+    }
+    #services{
+       border: 2px solid rgb(2, 122, 131);
+       margin: 34px;
+       display: flex;
+       background: url(../640-pink-crumpled-texture-paper-sheet-background-crumpled-red-paper-background-close-up-textured-background-colorful-handmade-creative-art-abstract-style-generate-ai.jpg)no-repeat center center/cover;
+    }
+    #services .box{ 
+       border: 2px solid rgb(14, 2, 32);
+       padding: 34px;
+       margin: 2px 55px;
+       border-radius: 28px;
+       background:transparent;
+       margin-bottom: 20px;
+       color: rgb(0, 9, 9);
+    }
+
+   #services .box img{ 
+      height: 160px;
+      margin: auto;
+      display: block;
+   }
+
+   #services .box p{
+      font-family: 'Bree Serif', serif;
+    }
+   .h-primary{
+      font-family:'baloo bhai',cursive;
+      font-size: 2 rem;
+      padding: 4px;
+      text-align: center;
+      color: rgb(39, 113, 89);
+      background-color: rgb(0, 0, 0);
+    } 
+    #contact{
+    position: relative;
+    }
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../3.jpeg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+
+#contact-box form{
+    width: 40%;
+
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+    .btn:hover{
+        background-color: rgb(79, 4, 108);
+        color:rgb(2, 122, 131)
+
+    }
+    .hotel-image{
+        min-width: 100%;
+        height:500px;
+        
+        margin:0 auto;
+    }
+    footer{
+        text-align: center;
+        padding: 1px;
+        background-color: #333;
+        color: rgb(240, 225, 225);
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Welcome to our hotel Website
+        </h1>
+        
+        
+
+    </header>
+    <nav>
+        <ul>
+            <li><a hreaf="#Home">Home</a></li>
+            <li><a hreaf="#Rooms">Rooms</a></li>
+            <li><a hreaf="#Gallery">Gallery</a></li>
+            <li><a hreaf="#Promotion">Promotion</a></li>
+            <li><a hreaf="#Places to eat">Place to eat</a></li>
+            <li><a hreaf="#Contact us">Contact us</a></li>
+            <li><a hreaf="#More">More</a></li>
+
+            
+            
+        </ul>
+    </nav>
+    <main>
+        <img src="pexels-pixabay-258154.jpg" alt="" class="hotel-image">
+    </main>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg" alt="">
+                <h2 class="h-secondary center">Pool side Room(****)</h2>
+                <p class="center"> Book luxury room at pool side in hotels at great prices on best hotel booking site.</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="box">
+                <img src="pexels-pixabay-237371.jpg" alt="">
+                <h2 class="h-secondary center">Normal room (***)</h2>
+                <p class="center">Book room in hotels at great prices on best hotel booking site</p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="box">
+                <img src="olexandr-ignatov-w72a24brINI-unsplash.jpg" alt="">
+                <h2 class="h-secondary center">Top floor room(*****)</h2>
+                <p class="center">Book top floor with best view luxury room in hotels at great prices on best hotel booking site</p>
+                <button class="btn">BOok Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" name="Age" id="age" placeholder="Enter your age">
+                </div>
+                <!--<div class="form-group">
+                    <label for="Gender">Gender: </label>
+                    <input type="radio" name="Gender" value="Male"> Male
+                    <input type="radio" name="Gender" value="Femle"> Female 
+                </div>-->
+                <div class="form-group">
+                    <label for="Payment method">Payment option: </label>
+         
+        
+                    <div class="card-number">
+        
+                        <label> Card Number </label>
+        
+                        <input type="text"
+        
+                               class="card-number-field"
+        
+                               placeholder="###-###-###" />
+        
+                    </div>
+        
+                    <br />
+        
+                    <div class="date-number">
+        
+                        <label> Expiry Date </label>
+        
+                        <input type="text"
+        
+                               class="date-number-field"
+        
+                               placeholder="DD-MM-YY" />
+        
+                    </div>
+         
+        
+                    <div class="cvv-number">
+        
+                        <label> CVV number </label>
+        
+                        <input type="text"
+        
+                               class="cvv-number-field"
+        
+                               placeholder="xxx" />
+        
+                    </div>
+        
+                    <div class="nameholder-number">
+        
+                        <label> Card Holder name </label>
+        
+                        <input type="text"
+        
+                               class="card-name-field"
+        
+                               placeholder="Enter your Name" />
+                    </div>
+                </div>
+                <button type="submit" form="forml" value="submit">submit</button>
+
+                
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Hotel booking system.All right reserved</p>
+    </footer>
+</body>
+</html>
